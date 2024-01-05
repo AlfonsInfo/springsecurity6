@@ -16,6 +16,7 @@ import org.springframework.stereotype.Component;
 import java.util.ArrayList;
 import java.util.List;
 
+//AuthenticationProvider : load the user details from DB.
 @Component
 public class EazyBankUsernamePwdAuthenticationProvider implements AuthenticationProvider {
 
